@@ -1,0 +1,122 @@
+.nav{
+    display: flex;
+}
+.info{
+    background-color:orangered;
+    height:40px;
+    width: 1260px;
+    display: flex;
+    align-items:center;
+    position: fixed;
+
+}
+
+    .link{
+        display:flex;
+        font-size: larger;
+        margin-top: 1%;
+       
+        
+     } 
+     .link a{
+        margin-left: 70px;
+     }
+     .heading:hover{
+        transform: scale(1.3);
+     }
+     .style{
+        position:absolute;
+        top:75%;
+        color: white;
+        display: flex;
+        justify-content: center;
+    
+       margin-left: 400px;
+     }
+     .style div{
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+     }
+     .style div:hover{
+        transform: scale(1.1);
+     }
+     .blankbox div{
+         height:320px;
+         width: 420px;
+         border: 1px gainsboro solid;
+         background-color:gainsboro;
+         text-align: center;
+         margin-left: 10px;
+         margin-top: 2%;
+     }
+     .blankbox{
+        display:flex;
+      
+        
+     }
+     
+     .box div{
+         height:320px;
+         width: 400px;
+         border: 1px solid gray;
+         background-color:gainsboro;
+         text-align: center;
+         margin-left: 20px;
+         margin-top: 5%;
+     }
+     .box{
+        display:flex;
+        
+     }
+
+     .box2 div{
+         height:320px;
+         width: 400px;
+         border: 1px solid gray;
+         background-color:gainsboro;
+         text-align: center;
+         margin-left: 25px;
+         margin-top: 3%;
+     }
+     .box2{
+        display:flex;
+        
+     }
+     .TeamMember{
+        height: 300px;
+        width: 250px;
+        margin-left: 20px;
+        display: flex;
+         
+     }
+
+     .MemberInfo div{
+         height:100px;
+         width: 250px;
+         border: 1px gainsboro solid;
+         background-color:gainsboro;
+         text-align: center;
+         margin-left: 50px;
+        
+          margin-top: 1%; 
+         /* position: absolute; */
+         
+     }
+     .MemberInfo{
+        display:flex;
+      }
+
+      .MemberInfo div:hover{
+        transform: scale(1.2);
+      }
+
+      .GalImage img{
+        height:300px;
+        width:375px;
+        margin-top: 5%;
+        display: inline-block;
+         margin-left: 30px;
+          }
+
+         
